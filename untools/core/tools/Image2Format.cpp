@@ -9338,7 +9338,7 @@ bool process(const fs::path& input_path, const fs::path& output_path, FORMAT fmr
 
 int main(int argc, char* argv[]) {
     if (argc != 4) {
-        std::cout << "Usage: Image2Format <input> <output> <out width> <out height>\n";
+        std::cout << "Usage: Image2Format <input> <output> <extension>\n";
         return 1;
     }
 
